@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* MENU */
+header {
+    background-color: #ff914d;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* IMAGEM */
+.banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* SERVIÇOS */
+.servicos {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
